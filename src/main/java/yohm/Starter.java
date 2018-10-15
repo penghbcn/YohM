@@ -16,6 +16,7 @@ import tk.mybatis.spring.annotation.MapperScan;
 @MapperScan("yohm.web.mapper")
 public class Starter {
 	public static void main(String[] args) {
+		System.out.println("111");
 		SpringApplication.run(Starter.class, args);
 	}
 }
